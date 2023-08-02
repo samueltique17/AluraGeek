@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles/reset.css">
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="/styles/colores.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+        <title> Alura Geek Menú Administrador</title>
+    </head>
+    <body>
+        <header class="encabezado__container">
+            <div class="encabezado__logo">
+                <div class="logo">
+                    <img class="logo__imagen" src="/assets/Vector.svg">
+                    <h1 data-logo class="logo__texto"><span class="first-word">Alura</span> Geek</h1>
+                </div>
+                <input placeholder="¿Qué quieres buscar?" type="text" class="buscador__input">
+            </div>
+            <div class="encabezado__boton">
+                <button class="boton__login" boton-login>Menú Administrador</button>
+            </div>
+        </header>
+        <section class="crear-producto">
+            
+            <div class="crear-container">
+                <img src="/assets/left-arrow.png" class="go-back" data-arrow>
+                <form action="" class="login__form login__container" data-form>
+                    <h1 class="crear__titulo">Agregar Producto</h1>
+                    <input type="text"  class="crear__input url-imagen" required data-url>
+                    <input type="text"  class="crear__input categoria" required data-categoria pattern="^(starwars|consola|diverso)$" title="Por favor, ingrese una de las siguientes opciones: starwars, consola, diverso">
+                    <input type="text"  class="crear__input descripcion" required data-nombre>
+                    <input type="text" class="crear__input precio-producto" required data-precio>
+                    <button class="crear__boton" type="submit">Agregar producto</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="contacto__container">
+            <div class="contacto__logo">
+                <img src="/assets/Vector.svg" alt="" class="logo__imagen">
+                <h1 class="logo__texto"><span class="first-word">Alura</span> Geek</h1>
+            </div>
+            <div class="contacto__informacion">
+                <ul class="info__lista">
+                    <il class="info__items"><a class="info__items" href="#"> Quienes somos</a></il>
+                    <il class="info__items"><a class="info__items"  href="#">Política de privacidad</a></il>
+                    <il class="info__items"><a class="info__items"  href="#">Programa de fidelidad</a></il>
+                    <il class="info__items"><a class="info__items"  href="#">Nuestras Tiendas</a></il>
+                    <il class="info__items"><a class="info__items"  href="#">Quiero ser franquiciado</a></il>
+                    <il class="info__items"><a class="info__items"  href="#">Anúncie aquí</a></il>
+                </ul>
+            </div>
+            <div class="formulario">
+                <form class="formulario">
+                    <h1 class="form__titulo">Hable con nosotros</h1>
+                    <input type="name" class="form__nombre" required>
+                    <input type="text" class="form__mensaje" maxlength="50" required placeholder="Escribe un mensaje">
+                    <button class="form__btn" type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+            </section>
+        <footer class="rodapie">
+            <h3 class="rodapie__info">Desarrollado por Samuel Tique</h3>
+            <h3 class="rodapie__year">2023</h3>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+        <script type="module" src="/controllers/producto.registro.js"></script>
+        <script src="/scripts/agregar.js"></script>
+    </body>
+</html>

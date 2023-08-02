@@ -1,0 +1,137 @@
+{
+  "producto": [
+    {
+      "imageUrl": "/assets/productos/Starwars3.png",
+      "categoria": "starwars",
+      "name": "Taza Star Wars",
+      "price": "$ 5,00",
+      "id": 3
+    },
+    {
+      "imageUrl": "https://juguetesdecoleccion.com/wp-content/uploads/lego-star-wars-halcon-milenario.jpg",
+      "categoria": "starwars",
+      "name": "Lego 2",
+      "price": "400$",
+      "id": 4
+    },
+    {
+      "imageUrl": "/assets/productos/Starwars5.png",
+      "categoria": "starwars",
+      "name": "Baby Yoda",
+      "price": "$ 60,00",
+      "id": 5
+    },
+    {
+      "name": "Consola XYZ",
+      "imageUrl": "/assets/productos/Consola1.png",
+      "price": "$ 60,00",
+      "categoria": "consola",
+      "id": 7
+    },
+    {
+      "name": "Consola XYZ",
+      "imageUrl": "/assets/productos/Consola3.png",
+      "price": "$ 60,00",
+      "categoria": "consola",
+      "id": 9
+    },
+    {
+      "name": "Consola XYZ",
+      "imageUrl": "/assets/productos/Consola6.png",
+      "price": "$ 60,00",
+      "categoria": "consola",
+      "id": 12
+    },
+    {
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_945572-MLA54004295867_022023-O.jpg",
+      "categoria": "starwars",
+      "name": "Lego",
+      "price": "10",
+      "id": "892fd26c-b55d-4903-ad85-ff9696e108f2"
+    },
+    {
+      "imageUrl": "https://computadoresenbogota.com/market/wp-content/uploads/2021/09/WhatsApp-Image-2021-09-22-at-3.29.52-PM-1.jpeg",
+      "categoria": "consola",
+      "name": "PS5",
+      "price": "500$",
+      "id": "1fe2870f-9e90-43c6-8c3c-4c2a5f42f076"
+    },
+    {
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_929998-MCO47576705680_092021-O.jpg",
+      "categoria": "starwars",
+      "name": "Baby Yoda Peluche",
+      "price": "20$",
+      "id": "9332db5c-4bb9-4767-9e3a-6cc4abedba25"
+    },
+    {
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_683867-MCO43414293135_092020-O.jpg",
+      "categoria": "starwars",
+      "name": "Funko Chewbacca",
+      "price": "35$",
+      "id": "3339eba8-e850-488c-9058-8096d7b408fc"
+    },
+    {
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0254/0093/4474/products/71043_800x800.jpg?v=1571865757",
+      "categoria": "diverso",
+      "name": "Harry Potter Lego",
+      "price": "100$",
+      "id": "948a271b-a5ce-4676-ae66-146b0398b543"
+    },
+    {
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0447/5168/3749/products/02935_400x.jpg?v=1663361207",
+      "categoria": "diverso",
+      "name": "Harry Potter Funko",
+      "price": "20$",
+      "id": "fb13af16-a3c7-4bac-98d1-e9bfcc01a41e"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/51piF6UQw1S._SL500_.jpg",
+      "categoria": "diverso",
+      "name": "Luffy Gear 4 ",
+      "price": "45$",
+      "id": "ea03c05f-3521-40a7-b8ae-f90966c8ef83"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71Vk7Xgo5uL._AC_UF1000,1000_QL80_.jpg",
+      "categoria": "consola",
+      "name": "PS5 Controller Spider Man",
+      "price": "115$",
+      "id": "9bb7dc50-6c84-4315-a2c4-b53c5143b4b0"
+    },
+    {
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_746204-MCO31111759262_062019-O.jpg",
+      "categoria": "diverso",
+      "name": "Monopoly GOT",
+      "price": "70$",
+      "id": "d284c209-2a5b-4db0-b3ba-fcc9d862a4dd"
+    },
+    {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik%27s_cube.svg/250px-Rubik%27s_cube.svg.png",
+      "categoria": "diverso",
+      "name": "Cubo Rubik",
+      "price": "20$",
+      "id": "befbb242-3387-4191-a0fb-cd47c2db61ad"
+    },
+    {
+      "imageUrl": "data:image/jpeg;base64,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",
+      "categoria": "diverso",
+      "name": "Batman Figura",
+      "price": "15$",
+      "id": "aa960431-0c80-4b17-8fd3-c69dba9d206e"
+    },
+    {
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0254/0093/4474/products/76203_1500x1500.jpg?v=1655160272",
+      "categoria": "diverso",
+      "name": "Iron Man Lego",
+      "price": "15$",
+      "id": "059041f7-5850-462b-a3b5-5c7884662310"
+    },
+    {
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_871220-MCO48751618515_012022-O.jpg",
+      "categoria": "starwars",
+      "name": "Funko Darth Vader",
+      "price": "30$",
+      "id": "bfd8fa57-6f71-448e-9fae-e3ae7785dd9d"
+    }
+  ]
+}

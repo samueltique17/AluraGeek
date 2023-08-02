@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles/reset.css">
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="/styles/colores.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+        <title> Alura Geek Productos</title>
+    </head>
+    <body>
+        <header class="encabezado__container">
+            <div class="encabezado__logo">
+                <div class="logo">
+                    <img class="logo__imagen" src="/assets/Vector.svg">
+                    <h1 class="logo__texto" data-logo><span class="first-word">Alura</span> Geek</h1>
+                </div>
+                <input placeholder="¿Qué quieres buscar?" type="text" class="buscador__input">
+            </div>
+        </header>
+        <section class="productos todos-los-productos">
+            <section class="productos__tipo-container">
+                <div class="tipo-link">
+                    <h1 class="producto__titulo">Todos los productos</h1>
+                    <button data-boton class="productos__boton">Agregar producto</button>
+                </div>
+                
+                <div class="producto__lista-container">
+                    <ul class="producto__lista lista-completa" data-producto-lista data-diversos data-consolas>
+                
+                    </ul>
+                    
+                </div>
+            </section>
+            <section class="contacto__container">
+                <div class="contacto__logo">
+                    <img src="/assets/Vector.svg" alt="" class="logo__imagen">
+                    <h1 class="logo__texto"><span class="first-word">Alura</span> Geek</h1>
+                </div>
+                <div class="contacto__informacion">
+                    <ul class="info__lista">
+                        <il class="info__items"><a class="info__items" href="#"> Quienes somos</a></il>
+                        <il class="info__items"><a class="info__items"  href="#">Política de privacidad</a></il>
+                        <il class="info__items"><a class="info__items"  href="#">Programa de fidelidad</a></il>
+                        <il class="info__items"><a class="info__items"  href="#">Nuestras Tiendas</a></il>
+                        <il class="info__items"><a class="info__items"  href="#">Quiero ser franquiciado</a></il>
+                        <il class="info__items"><a class="info__items"  href="#">Anúncie aquí</a></il>
+                    </ul>
+                </div>
+                <div class="formulario">
+                    <form class="formulario" action="">
+                        <h1 class="form__titulo">Hable con nosotros</h1>
+                        <input type="name" class="form__nombre" required>
+                        <input type="text" class="form__mensaje" maxlength="50" required placeholder="Escribe un mensaje">
+                        <button class="form__btn" type="submit">Enviar mensaje</button>
+                    </form>
+                </div>
+            </section>
+            <footer class="rodapie">
+                <h3 class="rodapie__info">Desarrollado por Samuel Tique</h3>
+                <h3 class="rodapie__year">2023</h3>
+            </footer>
+            <script type="module" src="/controllers/productos-controllers.js"></script>
+            <script src="/scripts/productos.js"></script>
+    </body>
+</html>

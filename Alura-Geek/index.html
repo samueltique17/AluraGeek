@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/colores.css">
+    <link rel="stylesheet" href="/styles/movil.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title> Alura Geek</title>
+</head>
+<body>
+    <header class="encabezado__container">
+        <div class="encabezado__logo">
+            <div class="logo">
+                <img class="logo__imagen" src="/assets/Vector.svg">
+                <h1 class="logo__texto"><span class="first-word">Alura</span> Geek</h1>
+            </div>
+            <input placeholder="¿Qué quieres buscar?" type="text" class="buscador__input">
+        </div>
+        <div class="encabezado__boton">
+            <button class="boton__login" boton-login>Login</button>
+        </div>
+    </header>
+
+    <section class="banner__container">
+        <div class="banner__contenido">
+            <h2 class="banner__titulo">Febrero Promocional</h2>
+            <h3 class="banner__texto">Productos selecionados con 33% de descuento</h3>
+            <button class="banner__boton">Ver Consolas</button>
+        </div>
+    </section>
+    <section class="productos">
+        <section class="productos__tipo-container starwars">
+            <div class="tipo-link">
+                <h1 class="producto__titulo">Star Wars</h1>
+                <div class="link-vertodo">
+                    <a class="ver-todo" href="#">Ver todo</a>
+                    <img src="/assets/flecha.svg" alt="">
+                </div>
+            </div>
+            
+            <div class="producto__lista-container">
+                <ul class="producto__lista" data-producto-lista>
+                 
+                </ul>
+                
+            </div>
+        </section>
+
+        <section class="productos__tipo-container consolas">
+            <div class="tipo-link">
+                <h1 class="producto__titulo">Consolas</h1>
+                <div class="link-vertodo">
+                    <a class="ver-todo" href="#">Ver todo</a>
+                    <img src="/assets/flecha.svg" alt="">
+                </div>
+            </div>
+            
+            <div class="producto__lista-container">
+                <ul class="producto__lista" data-consolas>
+                   
+                </ul>
+                
+            </div>
+        </section>
+        <section class="productos__tipo-container diverso">
+            <div class="tipo-link">
+                <h1 class="producto__titulo">Diversos</h1>
+                <div class="link-vertodo">
+                    <a class="ver-todo" href="#">Ver todo</a>
+                    <img src="/assets/flecha.svg" alt="">
+                </div>
+            </div>
+            
+            <div class="producto__lista-container">
+                <ul class="producto__lista" data-diversos>
+                    
+                </ul>
+                
+            </div>
+        </section>
+    </section>
+    <section class="contacto__container">
+        <div class="contacto__logo">
+            <img src="/assets/Vector.svg" alt="" class="logo__imagen">
+            <h1 class="logo__texto"><span class="first-word">Alura</span> Geek</h1>
+        </div>
+        <div class="contacto__informacion">
+            <ul class="info__lista">
+                <il class="info__items"><a class="info__items" href="#"> Quienes somos</a></il>
+                <il class="info__items"><a class="info__items"  href="#">Política de privacidad</a></il>
+                <il class="info__items"><a class="info__items"  href="#">Programa de fidelidad</a></il>
+                <il class="info__items"><a class="info__items"  href="#">Nuestras Tiendas</a></il>
+                <il class="info__items"><a class="info__items"  href="#">Quiero ser franquiciado</a></il>
+                <il class="info__items"><a class="info__items"  href="#">Anúncie aquí</a></il>
+            </ul>
+        </div>
+        <div class="formulario">
+            <form class="formulario" action="">
+                <h1 class="form__titulo">Hable con nosotros</h1>
+                <input type="name" class="form__nombre" required>
+                <input type="text" class="form__mensaje" maxlength="50" required placeholder="Escribe un mensaje">
+                <button class="form__btn" type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+    <footer class="rodapie">
+        <h3 class="rodapie__info">Desarrollado por Samuel Tique</h3>
+        <h3 class="rodapie__year">2023</h3>
+    </footer>
+    <script src="/scripts/script.js"></script>
+    <script type="module" src="/controllers/productos-controllers.js"></script>
+</body>
